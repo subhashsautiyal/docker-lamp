@@ -1,0 +1,88 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 22 14:42:07.189997 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Thu Sep 22 14:42:07.191255 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 23 07:30:19.763163 2022] [autoindex:error] [pid 23] [client 172.23.0.1:33146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Sep 23 07:30:20.996245 2022] [autoindex:error] [pid 23] [client 172.23.0.1:33146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Sep 23 07:30:21.212230 2022] [autoindex:error] [pid 23] [client 172.23.0.1:33146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Sep 23 07:30:21.390290 2022] [autoindex:error] [pid 23] [client 172.23.0.1:33146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Sep 23 07:30:21.563685 2022] [autoindex:error] [pid 23] [client 172.23.0.1:33146] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Sep 23 07:33:58.595465 2022] [php:notice] [pid 29] [client 172.23.0.1:33164] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_, referer: http://localhost/wp-admin/setup-config.php?step=1
+[Fri Sep 23 11:05:13.336879 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 26 12:52:06.141883 2022] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCUMENT_ROOT} is not defined
+[Mon Sep 26 12:52:06.142434 2022] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCUMENT_ROOT} is not defined
+AH00112: Warning: DocumentRoot [/etc/apache2/${APACHE_DOCUMENT_ROOT}] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Sep 26 12:52:06.333821 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Sep 26 12:52:06.333850 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Sep 26 12:52:25.548671 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:25.739517 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:28.369004 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:28.441429 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:28.930873 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:29.004509 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:29.147898 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:29.229402 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:29.322090 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:29.409783 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:29.515009 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:29.580674 2022] [authz_core:error] [pid 19] [client 172.23.0.1:40694] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:49.376103 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:49.454929 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:49.919600 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.015599 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:50.090499 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.167572 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:50.275031 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.355985 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:50.450926 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.536103 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:50.626962 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.725399 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:50.802903 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:50.903524 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:52:51.000621 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:52:51.090681 2022] [authz_core:error] [pid 20] [client 172.23.0.1:53088] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:20.611951 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:20.693947 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:21.139238 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:21.226403 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:21.307380 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:21.391709 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:21.491968 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:21.575589 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:21.675199 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:21.764056 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:21.867936 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:21.948484 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:26.708574 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 12:54:26.788603 2022] [authz_core:error] [pid 21] [client 172.23.0.1:36634] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}, referer: http://localhost/
+[Mon Sep 26 12:54:50.151035 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 26 14:44:23.873766 2022] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCUMENT_ROOT} is not defined
+[Mon Sep 26 14:44:23.873806 2022] [core:warn] [pid 1] AH00111: Config variable ${APACHE_DOCUMENT_ROOT} is not defined
+AH00112: Warning: DocumentRoot [/etc/apache2/${APACHE_DOCUMENT_ROOT}] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Sep 26 14:44:23.953046 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Sep 26 14:44:23.953121 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Sep 26 14:44:39.483219 2022] [authz_core:error] [pid 19] [client 172.18.0.1:35284] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:44.299881 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:46.022414 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:46.688948 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:46.883587 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:47.071116 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:47.256351 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:47.424106 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:47.608035 2022] [authz_core:error] [pid 17] [client 172.18.0.1:39298] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:45:59.867979 2022] [authz_core:error] [pid 21] [client 172.18.0.1:42990] AH01630: client denied by server configuration: /etc/apache2/${APACHE_DOCUMENT_ROOT}
+[Mon Sep 26 14:46:04.338861 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Sep 26 14:46:10.518374 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Mon Sep 26 14:46:10.518510 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Sep 26 14:46:33.584164 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 27 06:43:25.636914 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Tue Sep 27 06:43:25.644130 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 27 07:49:25.521475 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 27 09:25:39.336470 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Tue Sep 27 09:25:39.338016 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 27 10:01:27.898376 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

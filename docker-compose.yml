@@ -1,0 +1,61 @@
+version: "3.7"
+
+services:
+  webserver:
+    build:
+      context: ./web
+      dockerfile: Dockerfile 
+    container_name: webserverapache
+    restart: "always"
+    ports:
+      - "80:80"
+    links:
+      - database
+    volumes:
+      - ./web/www:/var/www/html:rw
+      - ./web/config/php/php.ini:/usr/local/etc/php/php.ini
+      - ./web/config/vhosts:/etc/apache2/sites-enabled
+      - ./web/logs/apache2:/var/log/apache2
+      - ./web/logs/xdebug:/var/log/xdebug
+
+  database:
+    build:
+      context: ./mysql/mysql8 
+    container_name: mysql8database
+    restart: "always"
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - ./mysql/initdb:/docker-entrypoint-initdb.d
+      - ./mysql/data/mysql:/var/lib/mysql
+      - ./mysql/logs:/var/log/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: tiger
+      MYSQL_DATABASE: docker
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: "phpmyadmin"
+    links:
+      - database
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: tiger
+      MYSQL_ROOT_PASSWORD: tiger
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+      UPLOAD_LIMIT: 512M
+      MEMORY_LIMIT: 512M
+    ports:
+      - "8080:80"
+    volumes:
+      - /sessions
+      - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+  redis:
+    container_name: "rediscon"
+    image: redis:latest
+    ports:
+      - "127.0.0.1:6379:6379"
