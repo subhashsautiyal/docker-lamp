@@ -1,2 +1,3 @@
-# docker-lamp
-docker-lamp
+Wordpress
+
+DB Host : wordpress
